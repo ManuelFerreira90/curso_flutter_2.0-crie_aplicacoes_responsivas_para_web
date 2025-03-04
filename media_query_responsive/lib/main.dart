@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:media_query_responsive/reponsive_orientation.dart';
+import 'package:media_query_responsive/responsive_layout_builder_expanded.dart';
+import 'package:media_query_responsive/responsive_layout_builder.dart';
 import 'package:media_query_responsive/responsive_row_column.dart';
 
 void main() {
@@ -17,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const ReponsiveOrientation()
+      home: const ResponsiveLayoutBuilderExpanded()
     );
   }
 }
